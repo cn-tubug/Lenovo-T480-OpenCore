@@ -44,7 +44,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                         |
 | GPU       | Intel UHD 620                        |                                                                                                                    |
 | SSD       | Stock 256gb M.2 SSD                  |                                                                                                               |
-| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                    |
+| Memory    | 16GB DDR4 2400Mhz                    |                                                                                                                    |
 | Battery   | Dual battery                         |                                                                                                                    |
 | Camera    | 720p Camera                          |                                                                                                                    |
 | Wifi & BT | Intel Wireless-AC 8265               | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app.                        |
@@ -60,8 +60,8 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | Component      | Version        |
 | -------------- | -------------- |
 | macOS Catalina | 10.15.7 (19H2) |
-| macOS Big Sur  | 11.2.2 (20D80) |
-| OpenCore       | v0.6.9         |
+| macOS Big Sur  | 11.6           |
+| OpenCore       | v0.7.3         |
 
 </details>
 
