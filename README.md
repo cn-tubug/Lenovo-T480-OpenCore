@@ -26,6 +26,8 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
+- Format your drive in APFS file format during macOS Recovery.
+
 - [CREDITS](CREDITS.md) file
 
 </details>  
