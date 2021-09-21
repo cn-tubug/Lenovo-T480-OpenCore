@@ -1,4 +1,4 @@
-# T480-OpenCore-Hackintosh
+# Lenovo-T480-OpenCore
 
 **Status: Working under OpenCore 0.7.3**
 
