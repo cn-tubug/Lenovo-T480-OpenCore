@@ -43,7 +43,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                         |
 | GPU       | Intel UHD 620                        |                                                                                                                    |
-| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work reliably                                                            |
+| SSD       | Stock 256gb M.2 SSD                  |                                                                                                               |
 | Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                    |
 | Battery   | Dual battery                         |                                                                                                                    |
 | Camera    | 720p Camera                          |                                                                                                                    |
