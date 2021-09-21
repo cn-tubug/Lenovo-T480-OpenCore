@@ -72,27 +72,27 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Kext                   | Version        |
 |:---------------------- | -------------- |
-| AirportItlwm           | 1.3.0          |
-| AppleALC               | 1.6.0          |
-| BrightnessKeys         | 1.0.1          |
-| CPUFriend              | 1.2.3          |
+| AirportItlwm           | 2.0.0          |
+| AppleALC               | 1.6.4          |
+| BrightnessKeys         | 1.0.2          |
+| CPUFriend              | 1.2.4          |
 | CPUFriendDataProvider  | i5-8250U       |
 | HibernationFixup       | 1.4.0          |
 | HoRNDIS                | Disabled, 9.2  |
-| IntelBluetoothFirmware | 1.1.2          |
-| IntelBluetoothInjector | 1.1.2          |
-| IntelMausi             | 1.0.6          |
-| Lilu                   | 1.5.3          |
+| IntelBluetoothFirmware | 2.0.1          |
+| IntelBluetoothInjector | 2.0.1          |
+| IntelMausi             | 1.0.7          |
+| Lilu                   | 1.5.6          |
 | NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.7          |
-| RTCMemoryFixup         | 1.0.8          |
-| VirtualSMC             | 1.2.3          |
+| NVMeFix                | 1.0.9          |
+| RTCMemoryFixup         | 1.0.7          |
+| VirtualSMC             | 1.2.7          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.3          |
-| VoodooRMI              | 1.3.3          |
-| VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.9          |
-| YogaSMC                | 1.4.3          |
+| VoodooPS2Controller    | 2.2.5          |
+| VoodooRMI              | 1.3.4          |
+| VoodooSMBus            | 2.2.0          |
+| WhateverGreen          | 1.5.3          |
+| YogaSMC                | 1.5.1          |
 
 </details>
 <details>
@@ -102,10 +102,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.9 |
+| AudioDxe.efi    | OpenCorePkg 0.7.3 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.9 |
-| OpenRuntime.efi | OpenCorePkg 0.6.9 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.3 |
+| OpenRuntime.efi | OpenCorePkg 0.7.3 |
 </details>
 
 <details>
