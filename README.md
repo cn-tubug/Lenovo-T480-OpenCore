@@ -8,10 +8,8 @@ Only works with APFS volume.
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
-[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.3-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS-Stable](https://img.shields.io/badge/macOS-11.6-success)](https://www.apple.com/macos/big-sur/)
 
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
@@ -245,7 +243,7 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
-Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtarius/CPUFriendFriend) or use at your own risk files provided in the Other folder.
+Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
 
 </details>  
 
@@ -295,8 +293,6 @@ Problems with recreating new `en` device every time are now solved on latest mac
 - [x] Bluetooth - Intel Wireless-AC 8265 (0x0A2B) 
 
 - [x] Boot chime
-
-- [x] Boot menu `OpenCanopy` 
 
 - [x] CPU power management / performance `Now on par with Windows without XTU undervolt.`
 
