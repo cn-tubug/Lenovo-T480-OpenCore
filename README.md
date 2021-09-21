@@ -2,9 +2,9 @@
 
 **Status: Working under OpenCore 0.7.3**
 
-Forked from EETAgent repo. First Hackintosh, i updated every kernel extension and config.plist in order to work with OpenCore 0.7.3 . Tested on macOS Big Sur 11.6. This README is still under construction.
-Only works with APFS volume.
-
+Forked from EETAgent repo. 
+Stable on Big Sur 11.6, updated kernel extensions (20/09/2021).
+Not tested on Catalina, but will probably work without any problems.
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
@@ -57,7 +57,6 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Component      | Version        |
 | -------------- | -------------- |
-| macOS Catalina | 10.15.7 (19H2) |
 | macOS Big Sur  | 11.6           |
 | OpenCore       | v0.7.3         |
 
