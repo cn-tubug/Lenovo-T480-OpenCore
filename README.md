@@ -1,8 +1,9 @@
 # T480-OpenCore-Hackintosh
 
-**Status: Unmaintained**
+**Status: Working under OpenCore 0.7.3**
 
-Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will be listed here
+Forked from EETAgent repo. First Hackintosh, i updated every kernel extension and config.plist in order to work with OpenCore 0.7.3 . Tested on macOS Big Sur 11.6. This README is still under construction.
+Only works with APFS volume.
 
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
