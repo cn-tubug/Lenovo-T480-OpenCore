@@ -243,10 +243,11 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 <summary><strong>Correct HDMI color output</strong></summary>
 <br>
 
-For some reasons, connector-type patching with WhateverGreen doesn't work and HDMI screen. The result is a pinky external screen with no audio support.
-We can at least have some good colors by forcing RGB mode.
-
 Link to the OpenCore patching tutorial : [Patching Connector Types](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/connector.html)
+
+(Note that the patch is already done in the config.plist).
+
+<strong>Only if the screen is still pink or yellow when HDMI is connected:</strong>
 
 You'll need to override EDID with this script : [Script](https://gist.github.com/adaugherity/7435890)
 
@@ -321,7 +322,7 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] GPU UHD 620 hardware acceleration / performance 
 
-- [x] HDMI, audio doesn't work.
+- [x] HDMI with audio.
 
 - [x] iMessage, FaceTime, App Store, iTunes Store. **Generate your own SMBIOS**
 
@@ -364,8 +365,6 @@ Problems with recreating new `en` device every time are now solved on latest mac
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
 
 - [ ] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
-    
-- [ ] HDMI output with audio.
 
 </details>  
 
