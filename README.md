@@ -2,8 +2,8 @@
 
 **Status: Working under OpenCore 0.7.3**
 
-Forked from EETAgent repo. 
 Stable on Big Sur 11.6, updated kernel extensions (20/09/2021).
+
 Not tested on Catalina, but will probably work without any problems.
 
 <img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
@@ -240,22 +240,20 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 </details>  
 
 <details>  
-<summary><strong>Correct HDMI color output</strong></summary>
+<summary><strong>macOS Scaling options</strong></summary>
 <br>
 
-Link to the OpenCore patching tutorial : [Patching Connector Types](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/connector.html)
+You can simulate macOS HiDPI to fake a retina display, and have access to scaling options in System Preferences.
 
-(Note that the patch is already done in the config.plist).
+[one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 
-<strong>Only if the screen is still pink or yellow when HDMI is connected:</strong>
+Run the following command on a terminal window : 
 
-You'll need to override EDID with this script : [Script](https://gist.github.com/adaugherity/7435890)
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+```
 
-- Open terminal
-- ruby [path-to-script]
-- cd /library
-- mkdir -p Displays/Contents/Resources/Overrides/ ("-p" = path option: this creates all subfolders at once)
-- Use two finder windows to drag-and-drop the newly created folder from step 2 to the Overrides directory
+Make sure you choose the internal display and not an external display if you have one connected !
 
 </details>  
 
@@ -345,6 +343,10 @@ Problems with recreating new `en` device every time are now solved on latest mac
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
 
 - [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
+
+- [x] Thunderbolt 3
+    
+- [x] USB-C
 
 - [x] Web camera
 
