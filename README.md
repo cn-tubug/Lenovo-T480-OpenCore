@@ -1,6 +1,6 @@
 # Lenovo-T480-OpenCore
 
-**Status: Working under OpenCore 0.7.3**
+**Status: Working under OpenCore 0.7.4**
 
 Stable on Big Sur 11.6, updated kernel extensions (06/10/2021).
 
