@@ -1,6 +1,6 @@
 # Lenovo-T480-OpenCore
 
-**Status: Working under OpenCore 0.7.3**
+**Status: Working under OpenCore 0.7.4**
 
 Stable on Big Sur 11.6, updated kernel extensions (06/10/2021).
 
@@ -240,7 +240,7 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 </details>  
 
 <details>  
-<summary><strong>macOS Scaling options</strong></summary>
+<summary><strong>MacOS Scaling options</strong></summary>
 <br>
 
 You can simulate macOS HiDPI to fake a retina display, and have access to scaling options in System Preferences.
@@ -260,23 +260,11 @@ Make sure you choose the internal display and not an external display if you hav
 <details>  
 
 
-<summary><strong>CPUFriend power management</strong></summary>
+<summary><strong>CPUFriend Power Management</strong></summary>
 <br>
 
 Generate CPUFriendDataProvider for your machine [here](https://github.com/corpnewt/CPUFriendFriend) or use at your own risk files provided in the Other folder.
 
-</details>  
-
-<details>  
-
-<summary><strong>VoltageShift undervolt</strong></summary>
-<br>
-
-It is possible to use VoltageShift directly from the EFI folder instead of disabling SIP. You need to use specific version provided in the Other folder.
-
-```diff
-! If you want to use this feature, enable it in config.plist
-```
 </details>  
 
 <details>  
