@@ -302,6 +302,7 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 </details>  
 
+<details>
 <summary><strong>Usefull application to manage and keep your Hackintosh fresh</strong></summary>
 <br>
 
