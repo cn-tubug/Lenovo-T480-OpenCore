@@ -101,18 +101,17 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 | Driver          | Version           |
 |:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.7.3 |
+| AudioDxe.efi    | OpenCorePkg 0.7.4 |
 | HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.3 |
-| OpenRuntime.efi | OpenCorePkg 0.7.3 |
+| OpenCanopy.efi  | OpenCorePkg 0.7.4 |
+| OpenRuntime.efi | OpenCorePkg 0.7.4 |
 </details>
 
 <details>
     <summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
-        <img src="./Other/README_Resources/Neofetch-Catalina.png" alt="Neofetch Catalina" width="350">
-        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Catalina" width="350">
+        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch BigSur" width="350">
     </p>
 </details> 
 
