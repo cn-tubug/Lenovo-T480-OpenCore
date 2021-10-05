@@ -2,7 +2,7 @@
 
 **Status: Working under OpenCore 0.7.3**
 
-Stable on Big Sur 11.6, updated kernel extensions (20/09/2021).
+Stable on Big Sur 11.6, updated kernel extensions (06/10/2021).
 
 Not tested on Catalina, but will probably work without any problems.
 
@@ -76,7 +76,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | BrightnessKeys         | 1.0.2          |
 | CPUFriend              | 1.2.4          |
 | CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.4.0          |
+| HibernationFixup       | 1.4.4          |
 | HoRNDIS                | Disabled, 9.2  |
 | IntelBluetoothFirmware | 2.0.1          |
 | IntelBluetoothInjector | 2.0.1          |
@@ -87,10 +87,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | RTCMemoryFixup         | 1.0.7          |
 | VirtualSMC             | 1.2.7          |
 | VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.5          |
+| VoodooPS2Controller    | 2.2.6          |
 | VoodooRMI              | 1.3.4          |
 | VoodooSMBus            | 2.2.0          |
-| WhateverGreen          | 1.5.3          |
+| WhateverGreen          | 1.5.4          |
 | YogaSMC                | 1.5.1          |
 
 </details>
@@ -299,6 +299,23 @@ You should see new Ethernet connection in the network settings. Works with USB T
 ! If you want to use this feature, enable it in config.plist
 ```
 Problems with recreating new `en` device every time are now solved on latest macOS versions with patched version of this kext. If it does not work for you, revert to official version.
+
+</details>  
+
+<summary><strong>Usefull application to manage and keep your Hackintosh fresh</strong></summary>
+<br>
+
+Once you've setup your Hackintosh, you maybe want to fly with your own wings and update kext, OpenCore, yourself.
+
+There is some very usefull applications that i've gather :
+
+[Kext Updater](https://bitbucket.org/profdrluigi/kextupdater/downloads/) : very great tool, also support OpenCore update.
+
+[Hackintool](https://github.com/headkaze/Hackintool) : swiss army knife of Hackintoshing.
+
+[IORegistryExplorer](https://github.com/vulgo/IORegistryExplorer) : more specific, usefull when debugging with external monitor for example.
+
+[MountEFI](https://github.com/corpnewt/MountEFI) : this script let you mount the EFI volume of your drive, primordial to any change of your configuration.
 
 </details>  
 
