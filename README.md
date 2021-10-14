@@ -16,6 +16,7 @@ Read the entire README and Dortania guides before you start. I am not responsibl
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
 If you find this bootloader configuration useful, consider giving it a star to make it more visible.
 
+[About legality](https://dortania.github.io/OpenCore-Install-Guide/why-oc.html#common-myths)
 ## Introduction
 
 <details> 
